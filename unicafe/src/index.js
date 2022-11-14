@@ -5,6 +5,7 @@ import reducer from './reducer'
 
 const store = createStore(reducer)
 
+// 2) add a dispatch for each button / action
 const App = () => {
   const good = () => {
     store.dispatch({

@@ -32,4 +32,6 @@ describe('unicafe reducer', () => {
       bad: 0
     })
   })
+
+  // define a test for each button
 })
