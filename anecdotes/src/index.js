@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
 import App from './App'
 // import reducer from './reducers/anecdoteReducer'
-import store from './store'
+import store from '<div className="" />utils/store'
 
 ReactDOM.render(
   <Provider store={store}>
