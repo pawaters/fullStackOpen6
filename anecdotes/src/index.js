@@ -1,10 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-// import { createStore } from 'redux' - replaced by store with thunk
+import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import App from './App'
-// import reducer from './reducers/anecdoteReducer'
 import store from './utils/store'
+import App from './App'
+
 
 ReactDOM.render(
   <Provider store={store}>
